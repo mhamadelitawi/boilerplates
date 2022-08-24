@@ -25,15 +25,15 @@
 	var link1 = "startupLambdaLink";
 	var instanceID = "yourInstanceId";
 	var instanceID = "yourInstanceId";
-
+	var region = "yourRegion"
 	
 	
 	switch(scenario) {
 		case 0:
-			callAwsLambdaFunction( link0, instanceID , regionID);
+			callAwsLambdaFunction( link0, instanceID , region);
 			break;
 		case 1:
-			callAwsLambdaFunction(link1 , instanceID , regionID);
+			callAwsLambdaFunction(link1 , instanceID , region);
 			break;	
 	}
 	}
